@@ -1,0 +1,12 @@
+.links {
+    display: flex;
+    gap: 1rem;
+}
+
+.links .link {
+    color: lightblue;
+}
+
+.links .link.active {
+    color: lightcoral;
+}
