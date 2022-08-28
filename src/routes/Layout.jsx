@@ -6,9 +6,9 @@ const Layout = (props) => {
         <div>
             <div className="container">
                 <div className='links'>
-                    <NavLink className='link' to='/'>home</NavLink>
-                    <NavLink className='link' to='/auth'>auth</NavLink>
-                    <NavLink className='link' to='/messages'>messages</NavLink>
+                    <NavLink className='link' to='/chat-test/'>home</NavLink>
+                    <NavLink className='link' to='/chat-test/auth'>auth</NavLink>
+                    <NavLink className='link' to='/chat-test/messages'>messages</NavLink>
                 </div>
             </div>
             <br /><hr /><br />

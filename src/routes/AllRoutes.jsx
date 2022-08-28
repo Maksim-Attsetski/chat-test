@@ -8,11 +8,11 @@ import Layout from './Layout';
 const AllRoutes = () => {
     return (
         <Routes>
-            <Route path='/' element={<Layout/>}>
-                <Route path='/' element={<HomePage/>} />
-                <Route path='/auth' element={<AuthForm/>} />
-                <Route path='/messages' element={<Messages/>} />
-                <Route path='/messages/:uid' element={<ChatPage/>} />
+            <Route path='/chat-test/' element={<Layout/>}>
+                <Route path='/chat-test/' element={<HomePage/>} />
+                <Route path='/chat-test/auth' element={<AuthForm/>} />
+                <Route path='/chat-test/messages' element={<Messages/>} />
+                <Route path='/chat-test/messages/:uid' element={<ChatPage/>} />
             </Route>
         </Routes>
     )
