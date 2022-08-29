@@ -11,7 +11,7 @@ const Layout = (props) => {
                     <NavLink className='link' to='/chat-test/messages'>messages</NavLink>
                 </div>
             </div>
-            <br /><hr /><br />
+            <hr /><br />
             <Outlet/>
         </div>
     )

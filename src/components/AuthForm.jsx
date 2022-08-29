@@ -23,7 +23,7 @@ const AuthForm = () => {
         <>
             <div className="container">
                 {!user ? <div>
-                    <form style={{display: 'flex',gap: '1rem', margin: '3rem'}} onSubmit={(e) => handleFormSubmit(e)}>
+                    <form style={{display: 'flex',flexDirection: 'column', gap: '0.5rem', margin: '1rem'}} onSubmit={(e) => handleFormSubmit(e)}>
                     <input type="text" value={formItems.email} onChange={(event) => setFormItems({
                         ...formItems, email: event.target.value
                     })} 

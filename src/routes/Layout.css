@@ -1,10 +1,14 @@
 .links {
     display: flex;
-    gap: 1rem;
+    gap: 0 1rem;
+    padding: 1rem;
 }
 
 .links .link {
     color: lightblue;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-decoration: none;
 }
 
 .links .link.active {
